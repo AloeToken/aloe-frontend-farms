@@ -1828,9 +1828,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@AloeToken/aloe-uikit":
+"@pancakeswap-libs/uikit@https://github.com/AloeToken/aloe-uikit.git":
   version "0.10.2"
-  resolved "https://codeload.github.com/AloeToken/aloe-uikit/tar.gz/64287b2c0168507d81e9238342417b7e082b73c3"
+  resolved "https://github.com/AloeToken/aloe-uikit.git#74ce4ad1bf4c0ba6e84bfa4a8bc99186fa963439"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
