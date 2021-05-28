@@ -10,9 +10,9 @@ const farms: FarmConfig[] = [
       97: '0x306a2c7eb29480e65633165c005e95e90ea9a79e',
       56: '',
     },
-    tokenSymbol: '',
+    tokenSymbol: 'ALOE',
     tokenAddresses: {
-      97: '',
+      97: '0xbbB7f6598dD71924B8B80F21A0cACCbb9f114d58',
       56: '',
     },
     quoteTokenSymbol: QuoteToken.BNB,
@@ -26,9 +26,9 @@ const farms: FarmConfig[] = [
       97: '0x4792e1a616021fd246c683f8cf035df858424bd5',
       56: '',
     },
-    tokenSymbol: '',
+    tokenSymbol: 'ALOE',
     tokenAddresses: {
-      97: '',
+      97: '0xbbB7f6598dD71924B8B80F21A0cACCbb9f114d58',
       56: '',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
@@ -40,7 +40,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'ALOE',
     lpAddresses: {
-      97: '',
+      97: '0x4792e1a616021fd246c683f8cf035df858424bd5', // ALOE-BUSD LP
       56: '',
     },
     tokenSymbol: 'ALOE',
@@ -57,7 +57,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'WBNB',
     lpAddresses: {
-      97: '',
+      97: '0x306a2c7eb29480e65633165c005e95e90ea9a79e', // ALOE-WBNB LP
       56: '',
     },
     tokenSymbol: 'WBNB',
@@ -74,7 +74,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'USDT',
     lpAddresses: {
-      97: '',
+      97: '0x1770e29269a36d8d0e437a373c0b76cf48b000b0', // ALOE-USDT LP
       56: '',
     },
     tokenSymbol: 'USDT',
@@ -91,7 +91,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'ETH',
     lpAddresses: {
-      97: '',
+      97: '0xa69e066eaf703e69ff74481b368300ebfbd714d1', // ALOE-ETH LP
       56: '',
     },
     tokenSymbol: 'ETH',
@@ -108,7 +108,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'BUSD',
     lpAddresses: {
-      97: '',
+      97: '0x4792e1a616021fd246c683f8cf035df858424bd5', // ALOE-BUSD LP (BUSD-BUSD will ignore)
       56: '',
     },
     tokenSymbol: 'BUSD',
@@ -125,7 +125,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'DAI',
     lpAddresses: {
-      97: '',
+      97: '0x969da2e28b3c105e3ccb8869f1f8e36ac6c03477', // ALOE-DAI LP
       56: '',
     },
     tokenSymbol: 'DAI',
@@ -142,7 +142,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'USDC',
     lpAddresses: {
-      97: '',
+      97: '0xdf475e10da27ae543cfe10f677854206c7f5d677', // ALOE-USDC LP
       56: '',
     },
     tokenSymbol: 'USDC',
@@ -159,7 +159,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'CAKE',
     lpAddresses: {
-      97: '',
+      97: '0x11fa6b698cfb064ecf362d9ebca71cbfdec752c7', // ALOE-CAKE LP
       56: '',
     },
     tokenSymbol: 'CAKE',
@@ -176,7 +176,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'BTCB',
     lpAddresses: {
-      97: '',
+      97: '0x43bacbb520c5520ec987963db6fcce76ce87a536', // ALOE-BTCB LP
       56: '',
     },
     tokenSymbol: 'BTCB',
