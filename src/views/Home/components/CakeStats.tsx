@@ -27,14 +27,14 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms()
-  const eggPrice = usePriceCakeBusd()
+  const aloePrice = usePriceCakeBusd()
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0)
   const cakeSupply = getBalanceNumber(circSupply)
-  const marketCap = eggPrice.times(circSupply)
+  const marketCap = aloePrice.times(circSupply)
 
-  let eggPerBlock = 0
-  if (farms && farms[0] && farms[0].eggPerBlock) {
-    eggPerBlock = new BigNumber(farms[0].eggPerBlock).div(new BigNumber(10).pow(18)).toNumber()
+  let aloePerBlock = 0
+  if (farms && farms[0] && farms[0].aloePerBlock) {
+    aloePerBlock = new BigNumber(farms[0].aloePerBlock).div(new BigNumber(10).pow(18)).toNumber()
   }
 
   return (
@@ -62,7 +62,7 @@ const CakeStats = () => {
         <Row>
           <Text fontSize="14px">{TranslateString(540, 'New ALOE/block')}</Text>
           <Text bold fontSize="14px">
-            {eggPerBlock}
+            {aloePerBlock}
           </Text>
         </Row>
       </CardBody>
