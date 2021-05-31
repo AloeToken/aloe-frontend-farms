@@ -17,6 +17,7 @@ import { getBalanceNumber } from '../../../utils/formatBalance'
 
 const StyledFarmStakingCard = styled(Card)`
   background-image: url('/images/aloe/2a.png');
+  border: ${(props) => props.theme.card.border};
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;

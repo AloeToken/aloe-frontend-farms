@@ -8,6 +8,7 @@ import CardValue from './CardValue'
 
 const StyledTotalValueLockedCard = styled(Card)`
   align-items: center;
+  border: ${(props) => props.theme.card.border};
   display: flex;
   flex: 1;
 `

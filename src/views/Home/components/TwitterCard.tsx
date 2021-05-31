@@ -13,6 +13,7 @@ import { useFarms } from '../../../state/hooks'
 const StyledTwitterCard = styled(Card)`
   margin-left: auto;
   margin-right: auto;
+  border: ${(props) => props.theme.card.border};
 `
 
 const Row = styled.div`
