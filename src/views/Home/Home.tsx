@@ -25,6 +25,7 @@ const Hero = styled.div`
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/aloe/3.png'), url('/images/aloe/3b.png');
     background-position: left center, right center;
+    background-size: 165px auto;
     height: 165px;
     padding-top: 0;
   }

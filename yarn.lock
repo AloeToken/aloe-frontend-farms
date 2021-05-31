@@ -1933,7 +1933,7 @@
 
 "@pancakeswap-libs/uikit@https://github.com/AloeToken/aloe-uikit.git":
   version "0.10.2"
-  resolved "https://github.com/AloeToken/aloe-uikit.git#356ba87276612a461745d0b07ef1bea874b1a8e9"
+  resolved "https://github.com/AloeToken/aloe-uikit.git#7f0b63fcd3759c06ec737b46795f5a451ac891b3"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

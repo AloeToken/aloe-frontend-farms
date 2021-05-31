@@ -1,9 +1,9 @@
 #!/bin/sh
 
-read -r -p "Upgrade dependencies? [y/N] " dep
+read -r -p "Upgrade UIKIT dependency? [y/N] " dep
 if [ "$dep" = "Y" ] || [ "$dep" = "y" ]
 then
-    yarn upgrade
+    yarn upgrade @pancakeswap-libs/uikit
 fi
 
 rm -r ./build/*
