@@ -41,12 +41,42 @@ const config: MenuEntry[] = [
   //   href: '/nft',
   // },
   {
+    label: 'Community',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Twitter',
+        href: 'https://twitter.com/SwapAloe',
+      },
+      {
+        label: 'Telegram announcement',
+        href: 'https://t.me/aloe_ann',
+      },
+      {
+        label: 'Telegram chat group',
+        href: 'https://t.me/aloe_group',
+      },
+      {
+        label: 'Discord',
+        href: 'https://discord.gg/4M8amDssUX',
+      },
+      {
+        label: 'Bitcoin Talk Forum',
+        href: '',
+      },
+      {
+        label: 'Reddit',
+        href: 'https://www.reddit.com/r/AloeSwap/',
+      },
+    ],
+  },
+  {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
         label: 'PooCoin chart',
-        href: 'https://poocoin.app/tokens/0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+        href: 'https://poocoin.app/tokens/0x111111111111111111',
       },
       {
         label: 'Github',
@@ -62,6 +92,11 @@ const config: MenuEntry[] = [
   //   label: 'Partnerships/IFO',
   //   icon: 'AloeIcon',
   //   href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+  // },
+  // {
+  //   label: 'Audit by TechRate',
+  //   icon: 'AuditIcon',
+  //   href: '',
   // },
   // {
   //   label: 'Audit by Hacken',
