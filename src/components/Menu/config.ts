@@ -62,7 +62,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Bitcoin Talk Forum',
-        href: '',
+        href: 'https://bitcointalk.org/index.php?topic=5341559',
       },
       {
         label: 'Reddit',
