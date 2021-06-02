@@ -8,5 +8,5 @@ fi
 
 rm -r ./build/*
 npm run-script build
-rm -r /data/www/test.aloeswap.com/*
-cp -r ./build/* /data/www/test.aloeswap.com/
+rm -r /data/www/aloeswap.com/*
+cp -r ./build/* /data/www/aloeswap.com/

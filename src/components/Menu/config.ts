@@ -76,7 +76,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PooCoin chart',
-        href: 'https://poocoin.app/tokens/0x111111111111111111',
+        href: 'https://poocoin.app/tokens/0x3052ee12567bBcb18Ec42E22297076256cEa4c86',
       },
       {
         label: 'Github',

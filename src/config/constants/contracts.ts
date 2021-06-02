@@ -1,10 +1,10 @@
 export default {
   cake: { // ALOE TOKEN ADDRESS
-    56: '',
+    56: '0x3052ee12567bBcb18Ec42E22297076256cEa4c86',
     97: '0xbbB7f6598dD71924B8B80F21A0cACCbb9f114d58',
   },
   masterChef: {
-    56: '',
+    56: '0xe2C1495206214392525976eFfA1AC49b11aB6Fd8',
     97: '0x9CddCDaBb0f5DA2AD2EE7073184CD336657Cf601',
   },
   wbnb: {
