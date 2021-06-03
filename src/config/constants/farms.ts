@@ -3,38 +3,6 @@ import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
-    pid: 0,
-    risk: 5,
-    lpSymbol: 'ALOE-BNB LP',
-    lpAddresses: {
-      97: '0x306a2c7eb29480e65633165c005e95e90ea9a79e', // ALOE-BNB LP
-      56: '0x1e82ee6382484bC0F75800FcE2A36487744de63B',
-    },
-    tokenSymbol: 'ALOE',
-    tokenAddresses: {
-      97: '0xbbB7f6598dD71924B8B80F21A0cACCbb9f114d58', // ALOE
-      56: '0x3052ee12567bBcb18Ec42E22297076256cEa4c86',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  {
-    pid: 1,
-    risk: 5,
-    lpSymbol: 'ALOE-BUSD LP',
-    lpAddresses: {
-      97: '0x4792e1a616021fd246c683f8cf035df858424bd5', // ALOE-BUSD LP
-      56: '0x92c4e4f2abcbff78c7a7bdbea843104adb9986d0',
-    },
-    tokenSymbol: 'ALOE',
-    tokenAddresses: {
-      97: '0xbbB7f6598dD71924B8B80F21A0cACCbb9f114d58', // ALOE
-      56: '0x3052ee12567bBcb18Ec42E22297076256cEa4c86',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
     pid: 2,
     risk: 5,
     isTokenOnly: true,
@@ -183,6 +151,42 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8', // BTCB
       56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    // pid: 0, // stary
+    pid: 11,
+    risk: 5,
+    lpSymbol: 'ALOE-BNB LP',
+    lpAddresses: {
+      97: '0x306a2c7eb29480e65633165c005e95e90ea9a79e', // ALOE-BNB LP
+      // 56: '0x1e82ee6382484bC0F75800FcE2A36487744de63B', // puvodni ALOE-BNB LP vytvoreny pres PancakeFactory
+      56: '0x4634ba3ed85b2005dbcfe7cf33ac4e8cc7e6a279', // novy ALOE-BNB LP vytvoreny pridanim likvidity
+    },
+    tokenSymbol: 'ALOE',
+    tokenAddresses: {
+      97: '0xbbB7f6598dD71924B8B80F21A0cACCbb9f114d58', // ALOE
+      56: '0x3052ee12567bBcb18Ec42E22297076256cEa4c86',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    // pid: 1, // stary
+    pid: 12,
+    risk: 5,
+    lpSymbol: 'ALOE-BUSD LP',
+    lpAddresses: {
+      97: '0x4792e1a616021fd246c683f8cf035df858424bd5', // ALOE-BUSD LP
+      // 56: '0x92c4e4f2abcbff78c7a7bdbea843104adb9986d0', // puvodni ALOE-BUSD LP vytvoreny pres PancakeFactory
+      56: '0x172d2d53974877569eaf18cf9616821798c2db7f',  // novy ALOE-BUSD LP vytvoreny pridanim likvidity
+    },
+    tokenSymbol: 'ALOE',
+    tokenAddresses: {
+      97: '0xbbB7f6598dD71924B8B80F21A0cACCbb9f114d58', // ALOE
+      56: '0x3052ee12567bBcb18Ec42E22297076256cEa4c86',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
