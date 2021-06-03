@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'WBNB',
     lpAddresses: {
       97: '0x306a2c7eb29480e65633165c005e95e90ea9a79e', // ALOE-WBNB LP
-      56: '0x1e82ee6382484bC0F75800FcE2A36487744de63B',
+      56: '0x4634ba3ed85b2005dbcfe7cf33ac4e8cc7e6a279',
     },
     tokenSymbol: 'WBNB',
     tokenAddresses: {
@@ -44,7 +44,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDT',
     lpAddresses: {
       97: '0x1770e29269a36d8d0e437a373c0b76cf48b000b0', // ALOE-USDT LP
-      56: '0xCb9c2F9653c5A12D1FE56b0689282e2e602496D7',
+      56: '0x783fe4797eada554460f248408a71ba52205bbaa',
     },
     tokenSymbol: 'USDT',
     tokenAddresses: {
@@ -61,7 +61,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ETH',
     lpAddresses: {
       97: '0xa69e066eaf703e69ff74481b368300ebfbd714d1', // ALOE-ETH LP
-      56: '0x8434bDa00A82E492b5E33F19Fc54d2Ad5B4dfc34',
+      56: '0xa85b99b07555bc70d3ab10f30d051c441912e832',
     },
     tokenSymbol: 'ETH',
     tokenAddresses: {
@@ -78,7 +78,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '0x4792e1a616021fd246c683f8cf035df858424bd5', // ALOE-BUSD LP (BUSD-BUSD will ignore)
-      56: '0x92c4e4f2abcbff78c7a7bdbea843104adb9986d0',
+      56: '0x172d2d53974877569eaf18cf9616821798c2db7f',
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
@@ -95,7 +95,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DAI',
     lpAddresses: {
       97: '0x969da2e28b3c105e3ccb8869f1f8e36ac6c03477', // ALOE-DAI LP
-      56: '0x84E94e6366E4a7b8092835E8914e4E34690B2FfD',
+      56: '0x1980f90bc1b4ea20a999b54d7b8d94ac64f2d640',
     },
     tokenSymbol: 'DAI',
     tokenAddresses: {
@@ -112,7 +112,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDC',
     lpAddresses: {
       97: '0xdf475e10da27ae543cfe10f677854206c7f5d677', // ALOE-USDC LP
-      56: '0xDdb395c8Fc0C00EE0FC5e8f8b3C14Df8504c28A1',
+      56: '0x69aca0d70b46891510031824f079a8fd4a802efd',
     },
     tokenSymbol: 'USDC',
     tokenAddresses: {
@@ -129,7 +129,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CAKE',
     lpAddresses: {
       97: '0x11fa6b698cfb064ecf362d9ebca71cbfdec752c7', // ALOE-CAKE LP
-      56: '0x9B71525949ec767C2Ab1CdcB96d4E35E2BFa3096',
+      56: '0x655310a7ff4cbf4c229afce2feea71b3cc3a1405',
     },
     tokenSymbol: 'CAKE',
     tokenAddresses: {
@@ -146,7 +146,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BTCB',
     lpAddresses: {
       97: '0x43bacbb520c5520ec987963db6fcce76ce87a536', // ALOE-BTCB LP
-      56: '0x99218E650973ac3D3669808ae066e5197EF4f733',
+      56: '0x50c9e86105320b6eb3a06789b2febf10ced492f0',
     },
     tokenSymbol: 'BTCB',
     tokenAddresses: {
@@ -157,13 +157,11 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    // pid: 0, // stary
     pid: 11,
     risk: 5,
     lpSymbol: 'ALOE-BNB LP',
     lpAddresses: {
       97: '0x306a2c7eb29480e65633165c005e95e90ea9a79e', // ALOE-BNB LP
-      // 56: '0x1e82ee6382484bC0F75800FcE2A36487744de63B', // previous ALOE-BNB LP created by PancakeFactory
       56: '0x4634ba3ed85b2005dbcfe7cf33ac4e8cc7e6a279', // new ALOE-BNB LP created by adding liquidity
     },
     tokenSymbol: 'ALOE',
@@ -175,13 +173,11 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    // pid: 1, // stary
     pid: 12,
     risk: 5,
     lpSymbol: 'ALOE-BUSD LP',
     lpAddresses: {
       97: '0x4792e1a616021fd246c683f8cf035df858424bd5', // ALOE-BUSD LP
-      // 56: '0x92c4e4f2abcbff78c7a7bdbea843104adb9986d0', // previous ALOE-BUSD LP created by PancakeFactory
       56: '0x172d2d53974877569eaf18cf9616821798c2db7f',  // new ALOE-BUSD LP created by adding liquidity
     },
     tokenSymbol: 'ALOE',
