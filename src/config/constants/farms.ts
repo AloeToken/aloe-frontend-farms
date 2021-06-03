@@ -9,7 +9,8 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ALOE',
     lpAddresses: {
       97: '0x4792e1a616021fd246c683f8cf035df858424bd5', // ALOE-BUSD LP
-      56: '0x92c4e4f2abcbff78c7a7bdbea843104adb9986d0',
+      56: '0x172d2d53974877569eaf18cf9616821798c2db7f',
+
     },
     tokenSymbol: 'ALOE',
     tokenAddresses: {
@@ -162,8 +163,8 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ALOE-BNB LP',
     lpAddresses: {
       97: '0x306a2c7eb29480e65633165c005e95e90ea9a79e', // ALOE-BNB LP
-      // 56: '0x1e82ee6382484bC0F75800FcE2A36487744de63B', // puvodni ALOE-BNB LP vytvoreny pres PancakeFactory
-      56: '0x4634ba3ed85b2005dbcfe7cf33ac4e8cc7e6a279', // novy ALOE-BNB LP vytvoreny pridanim likvidity
+      // 56: '0x1e82ee6382484bC0F75800FcE2A36487744de63B', // previous ALOE-BNB LP created by PancakeFactory
+      56: '0x4634ba3ed85b2005dbcfe7cf33ac4e8cc7e6a279', // new ALOE-BNB LP created by adding liquidity
     },
     tokenSymbol: 'ALOE',
     tokenAddresses: {
@@ -180,8 +181,8 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ALOE-BUSD LP',
     lpAddresses: {
       97: '0x4792e1a616021fd246c683f8cf035df858424bd5', // ALOE-BUSD LP
-      // 56: '0x92c4e4f2abcbff78c7a7bdbea843104adb9986d0', // puvodni ALOE-BUSD LP vytvoreny pres PancakeFactory
-      56: '0x172d2d53974877569eaf18cf9616821798c2db7f',  // novy ALOE-BUSD LP vytvoreny pridanim likvidity
+      // 56: '0x92c4e4f2abcbff78c7a7bdbea843104adb9986d0', // previous ALOE-BUSD LP created by PancakeFactory
+      56: '0x172d2d53974877569eaf18cf9616821798c2db7f',  // new ALOE-BUSD LP created by adding liquidity
     },
     tokenSymbol: 'ALOE',
     tokenAddresses: {
